@@ -46,4 +46,46 @@ nav li:hover{
         }
     }
 
+ 
+
+    .titulo {
+        position: relative;
+    }
     
+    .titulo img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .titulo .texto {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #EFF5F5;
+        border-color: #181823;
+        text-shadow: #181823;
+    }
+    
+    .titulo .texto h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    
+ 
+    @media screen and (min-width: 768px) {
+        .portada {
+            max-width: 768px;
+            margin: 0 auto;
+        }
+    
+        .portada .texto h1 {
+            font-size: 36px;
+        }
+    
+        .portada .texto p {
+            font-size: 20px;
+        }
+    }
