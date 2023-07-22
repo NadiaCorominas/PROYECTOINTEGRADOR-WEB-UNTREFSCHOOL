@@ -89,3 +89,185 @@ nav li:hover{
             font-size: 20px;
         }
     }
+    
+.quienes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.image-quienes {
+    width: 100%;
+    max-width: 100%;
+}
+
+.image-quienes img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Media query para 768px */
+@media screen and (min-width: 768px) {
+    .quienes {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .image-quienes {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-right: 20px;
+    }
+
+    .content {
+        flex: 1;
+    }
+
+    .content h2 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+}
+
+.elegirnos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.image-elegirnos {
+    width: 100%;
+    max-width: 100%;
+}
+
+.image-elegirnos img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content1 {
+    margin-top: 20px;
+}
+
+.content1 h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.content1 p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .elegirnos {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .image-elegirnos {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-right: 20px;
+    }
+
+    .content1 {
+        flex: 1;
+    }
+
+    .content1 h2 {
+        font-size: 20px;
+    }
+
+    .content1 p {
+        font-size: 20px;
+    }
+}
+
+.propuesta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.propuesta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.box h3 {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Belanosima' sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .propuesta {
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.noticias {
+    background-color: #1F8A70;
+    padding: 20px;
+}
+
+.noticias h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.noticias p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .recuadro {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
