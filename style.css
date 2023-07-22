@@ -233,7 +233,7 @@ nav li:hover{
 .box h3 {
     font-size: 18px;
     margin: 0;
-    font-family: 'Belanosima' sans-serif;
+    font-family: 'Belanosima' , sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -269,5 +269,38 @@ nav li:hover{
     .recuadro {
         max-width: 768px;
         margin: 0 auto;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #00425A;
+    color: #EFF5F5;
+    padding: 20px;
+    font-family: 'Belanosima' , sans-serif;
+}
+
+.footer-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-info h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-info {
+        margin-bottom: 0;
+        width: 30%;
     }
 }
